@@ -1,6 +1,11 @@
 require 'date'
 require './stack.rb'
 
+=begin
+TODO: find a way to add an input which will append any newly input data to this file (potentially move to a new file too)
+TODO: bundle input into a function that runs every time the program starts ("select mode: add, view, etc.")
+=end
+
 growth = Stack.new
 reese = Stack.new
 puff = Stack.new
